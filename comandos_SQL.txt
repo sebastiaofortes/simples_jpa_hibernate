@@ -1,0 +1,9 @@
+create table cliente (
+   id bigint not null auto_increment,
+   nome varchar(60) not null,
+   primary key (id)
+) engine=InnoDB;
+
+insert into cliente (id, nome) values (1, 'Autopeças Estrada');
+insert into cliente (id, nome) values (2, 'Autopeças Estrada');
+insert into cliente (id, nome) values (3, 'Autopeças Estrada');
